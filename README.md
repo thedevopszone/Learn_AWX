@@ -57,10 +57,17 @@ With user pass from inventory
 ```
 
 
-Install AWX In Podman
-sudo apt update && sudo apt upgrade -y
-Install Podman
+## Install AWX In Podman
 
+```
+sudo apt update && sudo apt upgrade -y
+```
+
+
+Install Podman
+```
+
+```
 
 
 

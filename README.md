@@ -74,12 +74,13 @@ sudo apt install -y podman
 
 Install compose
 ```
-sudo apt install podman-compose
+sudo apt install python3-pip
+pip3 install podman-compose
 ```
 
-sudo apt install docker-compose
-Install Ansible
 
+Install Ansible
+```
 sudo apt install ansible
 sudo apt install nodejs npm 
 npm install npm --global
@@ -101,7 +102,7 @@ ansible-playbook -i inventory install.yml
 docker ps
 http://<IP>:80
 With user pass from inventory
-
+```
 
 
 

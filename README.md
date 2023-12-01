@@ -18,7 +18,8 @@ sudo usermod -aG docker $USER
 
 Install compose
 ```
-sudo apt install docker-compose
+sudo apt install python3-pip
+pip install docker-compose
 ```
 
 

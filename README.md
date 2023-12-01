@@ -66,12 +66,15 @@ sudo apt update && sudo apt upgrade -y
 
 Install Podman
 ```
-
+sudo apt install -y podman 
 ```
 
 
 
 Install compose
+```
+sudo apt install podman-compose
+```
 
 sudo apt install docker-compose
 Install Ansible
